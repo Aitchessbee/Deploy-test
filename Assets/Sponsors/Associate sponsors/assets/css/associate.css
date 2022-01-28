@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap%27");
-@import url("https://fonts.cdnfonts.com/css/mechanismo-2%27");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.cdnfonts.com/css/mechanismo-2");
 
 #associate-sponsers {
     /* background: url("../images/bg.png");
@@ -42,7 +42,7 @@
 }
 
 .associate-heading {
-    font-family: Montserrat;
+    font-family: 'Mechanismo', 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 4rem;
@@ -52,7 +52,8 @@
 }
 
 .associate-sponsors-image-box img {
-    height: 80px;
+    width: 300px;
+    height: 150px;
     margin-bottom: 80px;
 }
 
@@ -81,6 +82,22 @@
     margin: 50px 100px;
     padding: 70px 100px 10px 100px;
 }
+
+.ttl2-associate{
+    height:fit-content;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+.mpad2{
+    padding:1rem;
+}
+
+.mpad3{
+    padding: 2rem;
+}
+
 
 @media (max-width: 1400px) {
     .associate-sponsors-image-box {
@@ -118,13 +135,36 @@
 
 @media (max-width: 700px) {
     .associate-sponsors-image-box img {
-        height: 60px;
+        height: 150px;
+        width:20rem;
     }
 
     .associate-container {
         padding: 0;
         padding-top: 50px;
         margin: 50px 30px;
+    }
+
+    .ttl2-associate{
+        height:150px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px){
+
+    .associate-sponsors-image-box img {
+        height: 5rem;
+        width:10rem;
+    }
+
+    .ttl2-associate{
+        height:150px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
     }
 }
 
@@ -140,6 +180,20 @@
     }
 
     .associate-sponsors-image-box img {
-        height: 30px;
+        height: 2rem;
+        padding: 0;
+    }
+
+    .ttl2-associate{
+        height:150px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+    .mpad2{
+        padding: 0;
+    }
+    .mpad3{
+        padding: 0;
     }
 }
