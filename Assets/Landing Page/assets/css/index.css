@@ -436,7 +436,6 @@ video{
   z-index: -1;
   overflow-x: hidden;
   margin-bottom: 0;
-  min-height: 100vh;
 }
 
 #videoBG {
@@ -614,6 +613,20 @@ canvas {
   width: 50%;
 }
 
+.apply-button{
+  display: inline-block;
+  height: 44px; 
+  width: 212px
+}
+.btn{
+  display: inline-block;
+  margin-bottom: 2.3rem;
+  margin-left: 6%;
+}
+.extra-btns{
+  margin-top: 40px;
+}
+
 @media (max-width: 400px) {
   .flex-grid {
     display: block;
@@ -671,6 +684,13 @@ canvas {
   .badge-btn {
     font-size: 60%;
   }
+  .apply-button{
+    margin-top :12%;
+  }
+  .btn{
+    margin-left:0%;
+    margin-top:15%;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .sidebar a {
@@ -702,8 +722,24 @@ canvas {
   }
   #landing-page {
     width: 100vw;
-    height: 90vh;
+    height: 92vh;
     overflow-x: hidden;
+  }
+
+  .apply-button{
+    margin-top :5%;
+    width:150px;
+    display: block;
+    margin-bottom: 4%;
+  }
+  .btn{
+    margin-left:0%;
+    margin-top:0;
+    width :150 px;
+  }
+  .landing-logo {
+    width: 90%;
+    margin-top:90px;
   }
 }
 
@@ -722,10 +758,15 @@ canvas {
   .landing-logo {
     margin-top: 12%;
   }
+
   .Countdown {
     margin-top: 10%;
     margin-left: 18%;
   }
+  .apply-button{
+    margin-top :5%;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -752,6 +793,9 @@ canvas {
     background: transparent;
     margin-left: 50%;
   }
+.apply-button{
+  margin-top: 5%;
+}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1392px) {
@@ -776,8 +820,8 @@ canvas {
   .btnsize {
     width: 13%;
   }
-  #landing-page {
+  /* #landing-page {
     width: 100vw;
-    height: 127vh;
-  }
+    height: 100vh;
+  } */
 }
