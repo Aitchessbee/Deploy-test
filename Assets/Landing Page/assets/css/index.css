@@ -621,8 +621,8 @@ canvas {
 }
 .btn{
   display: inline-block;
-  margin-bottom: 2rem;
-  margin-left: 20%;
+  margin-bottom: 2.3rem;
+  margin-left: 15%;
 }
 
 @media (max-width: 400px) {
