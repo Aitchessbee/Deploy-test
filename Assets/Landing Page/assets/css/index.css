@@ -622,7 +622,7 @@ canvas {
 .btn{
   display: inline-block;
   margin-bottom: 2.3rem;
-  margin-left: 15%;
+  margin-left: 6%;
 }
 
 @media (max-width: 400px) {
