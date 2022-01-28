@@ -623,6 +623,9 @@ canvas {
   margin-bottom: 2.3rem;
   margin-left: 6%;
 }
+.extra-btns{
+  margin-top: 40px;
+}
 
 @media (max-width: 400px) {
   .flex-grid {
@@ -719,17 +722,24 @@ canvas {
   }
   #landing-page {
     width: 100vw;
-    height: 90vh;
+    height: 92vh;
     overflow-x: hidden;
   }
+
   .apply-button{
-    margin-top :12%;
+    margin-top :5%;
     width:150px;
+    display: block;
+    margin-bottom: 4%;
   }
   .btn{
     margin-left:0%;
     margin-top:0;
     width :150 px;
+  }
+  .landing-logo {
+    width: 90%;
+    margin-top:90px;
   }
 }
 
@@ -748,10 +758,15 @@ canvas {
   .landing-logo {
     margin-top: 12%;
   }
+
   .Countdown {
     margin-top: 10%;
     margin-left: 18%;
   }
+  .apply-button{
+    margin-top :5%;
+  }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -778,6 +793,9 @@ canvas {
     background: transparent;
     margin-left: 50%;
   }
+.apply-button{
+  margin-top: 5%;
+}
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1392px) {
