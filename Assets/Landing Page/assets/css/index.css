@@ -436,7 +436,6 @@ video{
   z-index: -1;
   overflow-x: hidden;
   margin-bottom: 0;
-  min-height: 100vh;
 }
 
 #videoBG {
@@ -803,8 +802,8 @@ canvas {
   .btnsize {
     width: 13%;
   }
-  #landing-page {
+  /* #landing-page {
     width: 100vw;
-    height: 127vh;
-  }
+    height: 100vh;
+  } */
 }
