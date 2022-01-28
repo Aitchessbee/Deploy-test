@@ -614,6 +614,17 @@ canvas {
   width: 50%;
 }
 
+.apply-button{
+  display: inline-block;
+  height: 44px; 
+  width: 212px
+}
+.btn{
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-left: 20%;
+}
+
 @media (max-width: 400px) {
   .flex-grid {
     display: block;
@@ -671,6 +682,13 @@ canvas {
   .badge-btn {
     font-size: 60%;
   }
+  .apply-button{
+    margin-top :12%;
+  }
+  .btn{
+    margin-left:0%;
+    margin-top:15%;
+  }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
   .sidebar a {
@@ -704,6 +722,15 @@ canvas {
     width: 100vw;
     height: 90vh;
     overflow-x: hidden;
+  }
+  .apply-button{
+    margin-top :12%;
+    width:150px;
+  }
+  .btn{
+    margin-left:0%;
+    margin-top:0;
+    width :150 px;
   }
 }
 
